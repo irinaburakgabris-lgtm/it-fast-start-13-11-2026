@@ -1,25 +1,28 @@
-{
-  margin: 0
-  pading: 0
-  box-sizing: border-box
-
+body {
+  font-size: 20px;
+  padding: 5rem;
 }
-.container {
-  max-width: 1110px;
+th,
+td {
+  padding: 0.25rem 0;
+}
 
+table {
+  text-align: center;
   margin-left: auto;
   margin-right: auto;
-
-  padding-left: 15px;
-  padding-right: 15px;
-
 }
-p {
-      margin: 0.5rem 0;
-}
-  
 
-  textarea {
-    width: 100%;
-    box-sizing: border-box;
-  }
+.main-grid {
+  border: 1px solid black;
+}
+
+.main-grid > tbody > tr > td {
+  border: 1px solid black;
+  vertical-align: top;
+  padding: 0.5rem;
+}
+
+.week-col {
+  background-color: yellow;
+}
